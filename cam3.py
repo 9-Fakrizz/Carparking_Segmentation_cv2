@@ -5,8 +5,8 @@ import time
 
 # ========= TELEGRAM SETTINGS =========
 # แนะนำให้เก็บ Token เป็นความลับนะครับ (Environment Variable)
-BOT_TOKEN = "8287688254:AAGUwKSUO6zXYhdbq0blx_vtfGHoC6sQlSk"
-CHAT_ID   = "8572457986"
+BOT_TOKEN = ""
+CHAT_ID   = ""
 
 def send_telegram(text, image=None):
     try:
